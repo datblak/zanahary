@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.dorec3{ background: linear-gradient(90deg, #00D1FF 34.38%, rgba(13, 239, 117, 0.5) 100%);
+    width:auto;
+    height: 139px;
+    margin-top: 151px;
+     }
+.h4{
+    width: 227px;
+    height: 52px;
+
+margin-left: 25px;
+font-weight: 700px;
+font-size: 45px;
+line-height: 31.71px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+font-family: "Ubuntu Sans", sans-serif;
+}
+.h4 a{
+    text-decoration: none;
+    
+}
+.zan2{
+    width: 1292px;
+    height: 68px;
+    margin-left: 74px;
+    margin-top: 111px;
+
+}
+.zan2 p{
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 34.47px;
+    text-align: center;
+    font-family: "Ubuntu Sans", sans-serif;
+    color: #333333;
+    
+
+}
+.pro{
+    width: 345px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 77px;
+    margin-top: 98px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.1);
+
+
+}
+.pro img{
+    width: 345px;
+    height: 211px;
+}
+.pro p{
+    width: 261px;
+    height: 21px;
+    margin-top: 30px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 20.68px;
+    text-align: center;
+    margin-left: 26px;
+    color: black
+
+
+}
+.pro1{
+    width: 345px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 77px;
+    margin-top: 98px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.pro1 img{
+    width: 345px;
+    height: 211px;
+}
+.pro1 p{
+    width: 261px;
+    height: 21px;
+    margin-top: 30px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 20.68px;
+    text-align: center;
+    margin-left: 26px;
+    color: black
+}
+.pro2{
+    width: 345px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 77px;
+    margin-top: 98px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.pro2 img{
+    width: 345px;
+    height: 211px;
+}
+.pro2 p{
+    width: 367px;
+    height: 21px;
+    margin-top: 30px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 500px;
+    font-size: 17px;
+    line-height: 20.68px;
+    text-align: center;
+    margin-left: -10px;
+    color: black;
+    
+    
+}
+.pro3{
+    width: 345px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 77px;
+    margin-top: 98px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.pro3 img{
+    width: 345px;
+    height: 211px;
+}
+.pro3 p{
+    width: 253px;
+    height: 21px;
+    margin-top: 30px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 20.68px;
+    text-align: center;
+    margin-left: 26px;
+    color: black
+}
+.pro4{
+    width: 345px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 77px;
+    margin-top: 98px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.pro4 img{
+    width: 345px;
+    height: 211px;
+}
+.pro4 p{
+    width: 292px;
+    height: 21px;
+    margin-top: 30px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 20.68px;
+    text-align: center;
+    margin-left: 26px;
+    color: black
+}
+.pro5{
+    width: 345px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 77px;
+    margin-top: 98px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.pro5 img{
+    width: 345px;
+    height: 211px;
+}
+.pro5 p{
+    width: 295px;
+    height: 21px;
+    margin-top: 30px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 20.68px;
+    text-align: center;
+    margin-left: 26px;
+    color: black
+}
+.all2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
