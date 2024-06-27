@@ -1,78 +1,90 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
 
-.gap{
+.gap {
     background: linear-gradient(90deg, #00D1FF 50%, rgba(13, 239, 117, 0.5) 100%);
-    width: auto;
-    height: 133px;
+    /* width: auto;
+    height: 133px; */
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 
 
-    
-    
+
+
 }
-.main2{
+
+.main2 {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
- 
 
-.tag ul{
+
+.tag ul {
     display: flex;
-    margin-right: 900px;
+    /* margin-right: 900px; */
     gap: 40px;
-    margin-top: 57px;
+    /* margin-top: 57px;
     width: 56px;
-    height: 23px;
+    height: 23px; */
     font-weight: 500px;
     font-size: 20px;
     line-height: 22.98px;
-    color:rgba(255, 255, 255, 1);
-    text-decoration: none; 
-    list-style-type: none; 
-    text-wrap: nowrap; 
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    list-style-type: none;
+    text-wrap: nowrap;
     font-family: "Ubuntu Sans", sans-serif;
-    
-    
+
+
 }
-ul li a{all: unset;}
-.tag a{
+
+ul li a {
+    all: unset;
+}
+
+.tag a {
     text-decoration: none;
     color: #FFFFFF;
 
 }
-.home img{
+
+.home img {
     width: 100%;
-    margin-top: 1%; 
+    margin-top: 1%;
 
 }
-.img3 img{
+
+.img3 img {
     width: 100%;
 }
-    
-.img3{
-    margin-top:-61.5%;
-    
+
+.img3 {
+    margin-top: -61.5%;
+
 }
 
-.logo{
+.logo {
     width: 61px;
     height: 63px;
     margin-top: 39px;
     margin-left: 99px;
 }
-.logo2{
+
+.logo2 {
     width: 129px;
     height: 45px;
     margin-top: 52px;
     margin-left: 13px;
-}    
-.logo2 p{
+}
+
+.logo2 p {
     font-weight: 500px;
     font-size: 30px;
     line-height: 34.47px;
@@ -80,25 +92,29 @@ ul li a{all: unset;}
     font-family: "Ubuntu Sans", sans-serif;
 
 }
-.logo2 :nth-child(2){
+
+.logo2 :nth-child(2) {
     font-weight: 500px;
     font-size: 12px;
     margin-top: -15px;
     color: white;
     font-family: "Ubuntu Sans", sans-serif;
-    
-    
+
+
 }
-.man1{
+
+.man1 {
     display: flex;
 }
-.luv{
+
+.luv {
     display: flex;
     gap: 30px;
     margin-left: 85px;
-    margin-top: 56px; 
+    margin-top: 56px;
 }
-.luv p{
+
+.luv p {
     width: 321px;
     height: 40px;
     font-weight: 400px;
@@ -108,14 +124,15 @@ ul li a{all: unset;}
 
 }
 
-    
-.let{
-    
-    margin-top:-855px;
+
+.let {
+
+    margin-top: -855px;
     margin-left: 620px;
 }
-input[type=text]{
-    
+
+input[type=text] {
+
     border: none;
     border-bottom: 1px solid #0DEF75;
     width: 500px;
@@ -126,20 +143,33 @@ input[type=text]{
     font-family: "Ubuntu Sans", sans-serif;
 }
 
-input[type=number]{
+input[type=number] {
     border: none;
     border-bottom: 1px solid #0DEF75;
 }
-#one{
+
+#one {
     margin-top: 75px;
 }
 
 
-#two{margin-top: 75px;}
-#thre{margin-top: 75px;}
-#four{margin-top: 75px;}
-#five{margin-top: 75px;}
-.btn button{
+#two {
+    margin-top: 75px;
+}
+
+#thre {
+    margin-top: 75px;
+}
+
+#four {
+    margin-top: 75px;
+}
+
+#five {
+    margin-top: 75px;
+}
+
+.btn button {
     width: 258px;
     height: 60px;
     margin-top: 101px;
@@ -147,13 +177,15 @@ input[type=number]{
     border-radius: 4px;
     background: linear-gradient(90deg, #00D1FF 13.57%, rgba(13, 239, 117, 0.5) 100%);
     cursor: pointer;
-    
+
 
 }
-.btn button a{
+
+.btn button a {
     outline: none;
 }
-.btn p{
+
+.btn p {
     width: 152px;
     height: 23px;
     font-weight: 700px;
@@ -165,17 +197,18 @@ input[type=number]{
 
 }
 
-.btn button{
+.btn button {
     border: none;
 }
 
-.fir2{
+.fir2 {
     height: 1024px;
     width: 1001px;
     margin-left: 83px;
     background: linear-gradient(180deg, #00D1FF 0%, #0DEF75 100%);
 }
-.dee :nth-child(1){
+
+.dee :nth-child(1) {
     height: 40px;
     width: 338px;
     font-weight: 400px;
@@ -186,7 +219,8 @@ input[type=number]{
     margin-left: 100px;
     margin-top: 197px;
 }
-.dee :nth-child(2){
+
+.dee :nth-child(2) {
     height: 40px;
     width: 338px;
     font-weight: 400px;
@@ -197,7 +231,8 @@ input[type=number]{
     margin-left: 100px;
     margin-top: 10px;
 }
-.dee :nth-child(3){
+
+.dee :nth-child(3) {
     height: 40px;
     width: 338px;
     font-weight: 400px;
@@ -208,10 +243,12 @@ input[type=number]{
     margin-left: 232px;
     margin-top: -40px;
 }
-.dee{
+
+.dee {
     padding-left: 200px;
 }
-.pre p{
+
+.pre p {
     width: 416px;
     height: 40px;
     padding-left: 300px;
@@ -220,7 +257,7 @@ input[type=number]{
     font-weight: 400px;
     font-size: 25px;
     line-height: 40px;
-    color:#333333;
+    color: #333333;
 
 }
 
@@ -228,12 +265,13 @@ input[type=number]{
 .rad {
     margin-left: 300px;
     margin-top: 27px;
-    
-    
-    
-    
+
+
+
+
 }
-.rad label{
+
+.rad label {
     width: 73px;
     height: 40px;
     margin-top: 20px;
@@ -242,35 +280,40 @@ input[type=number]{
     font-size: 25px;
     line-height: 40px;
     color: #FFFFFF;
-    
-    
-    
-    
+
+
+
+
 }
-.rad { display: flex;
+
+.rad {
+    display: flex;
     gap: 49px;
 }
 
-.rad [type="radio"]{
+.rad [type="radio"] {
     width: 24px;
-    height: 20px;   
+    height: 20px;
 }
+
 /* .rad :nth-child(2){
     margin-left: 82px;
 } */
-input [type=radio],input[type=checkbox] {
+input [type=radio],
+input[type=checkbox] {
     transform: scale(2);
-    margin-left:105px ;
-    
+    margin-left: 105px;
+
 
 }
-input{
+
+input {
     accent-color: white;
     outline: white;
     cursor: pointer;
-    
-}
-input :focus{
-    outline: white;
+
 }
 
+input :focus {
+    outline: white;
+}
