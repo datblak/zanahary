@@ -1,76 +1,84 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.gap{
+
+.gap {
     background: linear-gradient(90deg, #00D1FF 50%, rgba(13, 239, 117, 0.5) 100%);
-    width: auto;
-    height: 133px;
+    /* width: auto;
+    height: 133px; */
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
 
 
-    
-    
+
+
 }
-.main2{
+
+.main2 {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
- 
 
-.tag ul{
+
+.tag ul {
     display: flex;
-    margin-right: 900px;
     gap: 40px;
-    margin-top: 57px;
-    width: 56px;
-    height: 23px;
     font-weight: 500px;
     font-size: 20px;
     line-height: 22.98px;
-    color:rgba(255, 255, 255, 1);
-    text-decoration: none; 
-    list-style-type: none; 
-    text-wrap: nowrap; 
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    list-style-type: none;
+    text-wrap: nowrap;
     font-family: "Ubuntu Sans", sans-serif;
-    
-    
+
+
 }
-ul li a{all: unset;}
-.tag a{
+
+ul li a {
+    all: unset;
+}
+
+.tag a {
     text-decoration: none;
     color: #FFFFFF;
 
 }
-.home img{
+
+.home img {
     width: 100%;
-    margin-top: 1%; 
+    margin-top: 1%;
 
 }
-.img3 img{
+
+.img3 img {
     width: 100%;
 }
-    
-.img3{
-    margin-top:-61.5%;
-    
+
+.img3 {
+    margin-top: -61.5%;
+
 }
 
-.logo{
+.logo {
     width: 61px;
     height: 63px;
     margin-top: 39px;
     margin-left: 99px;
 }
-.logo2{
+
+.logo2 {
     width: 129px;
     height: 45px;
     margin-top: 52px;
     margin-left: 13px;
-}    
-.logo2 p{
+}
+
+.logo2 p {
     font-weight: 500px;
     font-size: 30px;
     line-height: 34.47px;
@@ -78,47 +86,53 @@ ul li a{all: unset;}
     font-family: "Ubuntu Sans", sans-serif;
 
 }
-.logo2 :nth-child(2){
+
+.logo2 :nth-child(2) {
     font-weight: 500px;
     font-size: 12px;
     margin-top: -15px;
     color: white;
     font-family: "Ubuntu Sans", sans-serif;
-    
-    
+
+
 }
-.dot2{
+
+.dot2 {
     margin-left: 1630px;
     margin-top: -900px;
 }
-.dorec{
+
+.dorec {
     background: linear-gradient(90deg, #00D1FF 34.38%, rgba(13, 239, 117, 0.5) 100%);
-    width:auto;
+    width: auto;
     height: 182px;
-    margin-top:-15px;
+    margin-top: -15px;
 }
-h4{
-margin-top: -85px;
-font-weight: 700px;
-font-size: 35px;
-line-height: 51.71px;
-text-align: center;
-color: rgba(255, 255, 255, 1);
-font-family: "Ubuntu Sans", sans-serif;
+
+h4 {
+    margin-top: -85px;
+    font-weight: 700px;
+    font-size: 35px;
+    line-height: 51.71px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Ubuntu Sans", sans-serif;
 
 }
+
 /* .who{
     display: flex;
     margin-left: 100px;
     gap:20px ;
 } */
-.dre{
+.dre {
     position: relative;
     top: 318px;
     left: 70px;
     width: 50%;
 }
-.dre h4{
+
+.dre h4 {
     color: black;
     font-weight: 500px;
     font-size: 30px;
@@ -127,7 +141,8 @@ font-family: "Ubuntu Sans", sans-serif;
     text-align: left;
 
 }
-.dre span{
+
+.dre span {
     padding-top: 20px;
     display: block;
     width: 75%;
@@ -144,9 +159,10 @@ font-family: "Ubuntu Sans", sans-serif;
     /* border-bottom: 4px solid  linear-gradient(90deg,#00D1FF , #0DEF75); */
 
 }
-.abt p{
+
+.abt p {
     color: #666666;
-    
+
     position: relative;
     top: 400px;
     width: 699px;
@@ -156,54 +172,61 @@ font-family: "Ubuntu Sans", sans-serif;
     font-size: 30px;
     line-height: 45px;
     font-family: "Ubuntu Sans", sans-serif;
-    
+
 
 }
-.abt :nth-child(2){
+
+.abt :nth-child(2) {
     width: 706px;
     height: 329px;
     padding-top: 29px;
     left: 70px;
 }
-.dra img{
+
+.dra img {
     width: 590px;
     height: 830px;
-    margin-left:60%;
+    margin-left: 60%;
     margin-top: -500px;
     gap: 100px;
 }
-.pass{
+
+.pass {
     display: flex;
     margin-top: 90px;
 }
-.pasi img{
+
+.pasi img {
     width: 491px;
     height: 797px;
     padding-top: 54px;
     padding-left: 70px;
 }
-.pash h2{
+
+.pash h2 {
     width: 637px;
     height: 182px;
-    padding-top:54px ;
+    padding-top: 54px;
     padding-left: 43px;
     font-weight: 500px;
     font-size: 30px;
     line-height: 34.47px;
     font-family: "Ubuntu Sans", sans-serif;
 }
-.pash span{
+
+.pash span {
     display: block;
     font-weight: 700px;
     font-size: 100px;
     line-height: 114.9px;
     font-family: "Ubuntu Sans", sans-serif;
-    border-bottom: 4px  solid transparent;
+    border-bottom: 4px solid transparent;
     border-image: linear-gradient(90deg, #00D1FF 0%, #0DEF75 100%);
     border-image-slice: 1;
     padding-top: 15px;
 }
-.pasp{
+
+.pasp {
     font-weight: 400px;
     font-size: 30px;
     line-height: 45px;
@@ -211,32 +234,37 @@ font-family: "Ubuntu Sans", sans-serif;
     color: #666666;
 
 }
-.pasp :nth-child(1){
+
+.pasp :nth-child(1) {
     width: 775px;
     height: 276px;
     padding-top: 290px;
     margin-left: -640px;
-    
+
 }
-.pasp :nth-child(2){
+
+.pasp :nth-child(2) {
     width: 802px;
     height: 271px;
-    margin-left:-640px ;
+    margin-left: -640px;
     padding-top: 21px;
 }
-.pasp :nth-child(3){
+
+.pasp :nth-child(3) {
     width: 1336px;
     height: 149px;
     padding-top: 39px;
     margin-left: -1180px;
 }
-.cor{
+
+.cor {
     margin-top: 63px;
-    background:linear-gradient(90deg, #00D1FF 50%, rgba(13, 239, 117, 0.5) 100%);
-    width: auto; 
-    height: 133px;     
+    background: linear-gradient(90deg, #00D1FF 50%, rgba(13, 239, 117, 0.5) 100%);
+    width: auto;
+    height: 133px;
 }
-.cor h2{
+
+.cor h2 {
     width: 304px;
     height: 52px;
     /* padding-left: 568px; */
@@ -250,7 +278,8 @@ font-family: "Ubuntu Sans", sans-serif;
     margin: auto;
 
 }
-.the p{
+
+.the p {
     width: 1127px;
     height: 102px;
     padding-left: 250px;
@@ -262,6 +291,7 @@ font-family: "Ubuntu Sans", sans-serif;
     margin-top: 42px;
 
 }
+
 /* .cor1 img{
     width: 1196px;
     height: 150px;
@@ -279,21 +309,22 @@ font-family: "Ubuntu Sans", sans-serif;
     margin-top: -60px;
     height: 278px;
 } */
- .cor2 img{
+.cor2 img {
     width: 1450px;
     height: 600px;
     padding-left: 122px;
     padding-top: 104px;
 
- }
-.pag img{
+}
+
+.pag img {
     width: 100%;
     margin-top: 90px;
     height: 681.13px;
 }
 
 
-.like{
+.like {
     display: flex;
     justify-content: space-between;
     margin-top: -600px;
@@ -303,16 +334,18 @@ font-family: "Ubuntu Sans", sans-serif;
     line-height: 37.98px;
     font-family: "Ubuntu Sans", sans-serif;
     color: #FFFFFF;
-    
+
 }
-.sey{
+
+.sey {
     width: 129px;
     height: 45px;
     margin-top: 403.09px;
-     
 
-}    
-.sey p{
+
+}
+
+.sey p {
     font-weight: 500px;
     font-size: 30px;
     line-height: 34.47px;
@@ -321,18 +354,20 @@ font-family: "Ubuntu Sans", sans-serif;
     margin-left: -50px;
 
 }
-.sey :nth-child(2){
+
+.sey :nth-child(2) {
     font-weight: 500px;
     font-size: 12px;
     margin-top: -15px;
     color: white;
-    font-family: "Ubuntu Sans", sans-serif;   
-} 
-.tin img{
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.tin img {
     width: 100%;
 }
 
-.foot5{
+.foot5 {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
@@ -343,20 +378,24 @@ font-family: "Ubuntu Sans", sans-serif;
     color: rgba(255, 255, 255, 1);
     margin-top: 40px;
 }
-.dot3{
+
+.dot3 {
     margin-top: -530px;
     margin-left: 1630px;
 }
-.foot1 a{
+
+.foot1 a {
     text-decoration: none;
     color: #FFFFFF;
 
 }
-.foot4 img{ 
+
+.foot4 img {
     margin-left: 30px;
 }
-.dot5{
+
+.dot5 {
     margin-left: 6px;
     margin-top: 220px;
-    
+
 }
