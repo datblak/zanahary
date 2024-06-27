@@ -6,17 +6,14 @@
 
 .gap {
     background: linear-gradient(90deg, #00D1FF 50%, rgba(13, 239, 117, 0.5) 100%);
-    /* width: auto;
-    height: 133px; */
+    /* width: auto; */
+    /* height: 133px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-
-
-
-
 }
+
 
 .main2 {
     display: flex;
