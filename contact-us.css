@@ -14,7 +14,6 @@
     padding: 20px;
 }
 
-
 .main2 {
     display: flex;
     gap: 10px;
@@ -27,9 +26,8 @@
     display: flex;
     /* margin-right: 900px; */
     gap: 40px;
-    /* margin-top: 57px;
-    width: 56px;
-    height: 23px; */
+    /* margin-top: 57px; */
+    /* height: 23px; */
     font-weight: 500px;
     font-size: 20px;
     line-height: 22.98px;
@@ -38,7 +36,6 @@
     list-style-type: none;
     text-wrap: nowrap;
     font-family: "Ubuntu Sans", sans-serif;
-
 
 }
 
@@ -69,15 +66,11 @@ ul li a {
 
 .logo {
     width: 61px;
-    height: 63px;
-    margin-top: 39px;
     margin-left: 99px;
 }
 
 .logo2 {
     width: 129px;
-    height: 45px;
-    margin-top: 52px;
     margin-left: 13px;
 }
 

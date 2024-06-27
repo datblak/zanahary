@@ -1,76 +1,79 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-.gap{
+
+.gap {
     background: linear-gradient(90deg, #00D1FF 50%, rgba(13, 239, 117, 0.5) 100%);
-    width: auto;
-    height: 133px;
+    /* width: auto; */
+    /* height: 133px; */
     display: flex;
-justify-content: space-between;
-
-
-    
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-.main2{
+
+.main2 {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
- 
 
-.tag ul{
+
+.tag ul {
     display: flex;
-    margin-right: 900px;
+    /* margin-right: 900px; */
     gap: 40px;
-    margin-top: 57px;
-    width: 56px;
-    height: 23px;
+    /* margin-top: 57px; */
+    /* height: 23px; */
     font-weight: 500px;
     font-size: 20px;
     line-height: 22.98px;
-    color:rgba(255, 255, 255, 1);
-    text-decoration: none; 
-    list-style-type: none; 
-    text-wrap: nowrap; 
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    list-style-type: none;
+    text-wrap: nowrap;
     font-family: "Ubuntu Sans", sans-serif;
-    
-    
+
 }
-ul li a{all: unset;}
-.tag a{
+
+ul li a {
+    all: unset;
+}
+
+.tag a {
     text-decoration: none;
     color: #FFFFFF;
 
 }
-.home img{
+
+.home img {
     width: 100%;
-    margin-top: 1%; 
+    margin-top: 1%;
 
 }
-.img3 img{
+
+.img3 img {
     width: 100%;
 }
-    
-.img3{
-    margin-top:-61.5%;
-    
+
+.img3 {
+    margin-top: -61.5%;
+
 }
 
-.logo{
+.logo {
     width: 61px;
-    height: 63px;
-    margin-top: 39px;
     margin-left: 99px;
 }
-.logo2{
+
+.logo2 {
     width: 129px;
-    height: 45px;
-    margin-top: 52px;
     margin-left: 13px;
-}    
-.logo2 p{
+}
+
+.logo2 p {
     font-weight: 500px;
     font-size: 30px;
     line-height: 34.47px;
@@ -78,60 +81,67 @@ ul li a{all: unset;}
     font-family: "Ubuntu Sans", sans-serif;
 
 }
-.logo2 :nth-child(2){
+
+.logo2 :nth-child(2) {
     font-weight: 500px;
     font-size: 12px;
     margin-top: -15px;
     color: white;
     font-family: "Ubuntu Sans", sans-serif;
-    
-    
+
+
 }
-.aqi{
+
+.aqi {
     display: flex;
 }
+
 /* .aqi :nth-child(2){
     top: -2px;
     position: relative;
     width: 100%;
     margin-left: -100%;
 }  */
-.aqi :nth-child(1){
+.aqi :nth-child(1) {
     margin-top: -2px;
     width: 100%;
-    
+
 }
-.con :nth-child(1){
+
+.con :nth-child(1) {
     width: 490px;
     height: 104px;
     padding-left: 497px;
-    margin-top:-350px ;
+    margin-top: -350px;
     font-weight: 500px;
-    font-size:38px ;
+    font-size: 38px;
     line-height: 51.71px;
     text-align: center;
     /* color: white; */
     color: #FFFFFF;
 }
-.con :nth-child(2){
+
+.con :nth-child(2) {
     width: 345px;
     height: 52px;
     padding-left: 570px;
-    margin-top:12px ;
+    margin-top: 12px;
     font-weight: 500px;
-    font-size:38px ;
+    font-size: 38px;
     line-height: 51.71px;
     text-align: center;
     /* color: white; */
     color: #FFFFFF;
 }
-.con1{
+
+.con1 {
     display: flex;
     gap: 46px;
     margin-left: 680px;
     margin-top: 38px;
 }
-.aqi2{
+
+.aqi2 {
     display: flex;
     margin-top: 130px;
     margin-left: 49px;
@@ -139,7 +149,8 @@ ul li a{all: unset;}
     /* background:linear-gradient(266.59deg, rgba(0, 209, 255, 0.5) 37.42%, rgba(13, 239, 117, 0.5) 90.74%);
     background-size: 318.51px; */
 }
-.aqi2 h2{
+
+.aqi2 h2 {
     font-weight: 490px;
     height: 52px;
     width: 500px;
@@ -148,17 +159,20 @@ ul li a{all: unset;}
     color: #333333;
     font-family: "Ubuntu Sans", sans-serif;
 }
-.aqi2 img{
+
+.aqi2 img {
     width: 40px;
     height: 40px;
 }
-.aqi2 :nth-child(3){
+
+.aqi2 :nth-child(3) {
     width: 318.51px;
     height: 30px;
     margin-left: -516.14px;
     margin-top: 12px;
 
 }
+
 /* .bak{
     background: linear-gradient(266.59deg, rgba(0, 209, 255, 0.5) 37.42%, rgba(13, 239, 117, 0.5) 90.74%);
     width: 318.51px;
@@ -167,10 +181,11 @@ ul li a{all: unset;}
     margin-left: 136.14px;
     transform: rotate(-2.18deg);
 } */
-.aqi3{
+.aqi3 {
     display: flex;
 }
-.aqi3 p{
+
+.aqi3 p {
     width: 896px;
     height: 339px;
     padding-left: 49px;
@@ -182,12 +197,14 @@ ul li a{all: unset;}
     font-family: "Ubuntu Sans", sans-serif;
 
 }
-.aqi3 img{
+
+.aqi3 img {
     width: 482px;
     height: 410px;
-    margin-top:100px;
+    margin-top: 100px;
 }
-.ul{
+
+.ul {
     width: 758px;
     height: 215px;
     margin-left: 49px;
@@ -197,36 +214,40 @@ ul li a{all: unset;}
     font-size: 30px;
     line-height: 34.47px;
     color: #666666;
-    
+
 
 }
 
 
-.ul li{
+.ul li {
     list-style: none;
     list-style-image: none;
     /* position: relative; */
     gap: 50px;
-    
+
 }
-#mar1{
+
+#mar1 {
     display: flex;
     gap: 14px;
 }
-#mar2{
+
+#mar2 {
     display: flex;
     gap: 14px;
 }
-#mar3{
+
+#mar3 {
     display: flex;
     gap: 14px;
 }
-#mar3 img{
+
+#mar3 img {
     width: 38px;
     height: 34px;
 }
 
-.pee{
+.pee {
     width: 1340px;
     height: 612px;
     margin-left: 50px;
@@ -238,17 +259,19 @@ ul li a{all: unset;}
     color: #666666;
 
 }
-.pee span{
+
+.pee span {
     color: black;
 }
 
-.con4{
+.con4 {
     display: flex;
     gap: 33px;
     margin-top: 133px;
     margin-left: 39px;
 }
-.con4 h2{
+
+.con4 h2 {
     width: 345px;
     height: 52px;
     font-family: "Ubuntu Sans", sans-serif;
@@ -258,21 +281,25 @@ ul li a{all: unset;}
     text-align: center;
 
 }
-.con4 :nth-child(2){
+
+.con4 :nth-child(2) {
     width: 42px;
     height: 42px;
 }
-.con4 :nth-child(3){
+
+.con4 :nth-child(3) {
     width: 318.51px;
     height: 30px;
     margin-left: -439px;
     margin-top: 12px;
 }
-.con5{
+
+.con5 {
     display: flex;
     margin-top: 50px;
 }
-.con5 p{
+
+.con5 p {
     width: 865px;
     height: 470px;
     margin-top: 21px;
@@ -284,23 +311,25 @@ ul li a{all: unset;}
     color: #666666;
 
 
-    
+
 }
-.con5 img{
+
+.con5 img {
     width: 482px;
     height: 450px;
     margin-left: 100px;
     margin-top: -150px;
 
 }
-.pag img{
+
+.pag img {
     width: 100%;
     margin-top: 90px;
     height: 681.13px;
 }
 
 
-.like{
+.like {
     display: flex;
     justify-content: space-between;
     margin-top: -600px;
@@ -310,16 +339,18 @@ ul li a{all: unset;}
     line-height: 37.98px;
     font-family: "Ubuntu Sans", sans-serif;
     color: #FFFFFF;
-    
+
 }
-.sey{
+
+.sey {
     width: 129px;
     height: 45px;
     margin-top: 403.09px;
-     
 
-}    
-.sey p{
+
+}
+
+.sey p {
     font-weight: 500px;
     font-size: 30px;
     line-height: 34.47px;
@@ -328,18 +359,20 @@ ul li a{all: unset;}
     margin-left: -50px;
 
 }
-.sey :nth-child(2){
+
+.sey :nth-child(2) {
     font-weight: 500px;
     font-size: 12px;
     margin-top: -15px;
     color: white;
-    font-family: "Ubuntu Sans", sans-serif;   
-} 
-.tin img{
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.tin img {
     width: 100%;
 }
 
-.foot5{
+.foot5 {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
@@ -350,20 +383,24 @@ ul li a{all: unset;}
     color: rgba(255, 255, 255, 1);
     margin-top: 40px;
 }
-.dot3{
+
+.dot3 {
     margin-top: -150px;
     margin-left: 1630px;
 }
-.foot1 a{
+
+.foot1 a {
     text-decoration: none;
     color: #FFFFFF;
 
 }
-.foot4 img{ 
+
+.foot4 img {
     margin-left: 30px;
 }
-.dot5{
+
+.dot5 {
     margin-left: 6px;
     margin-top: 220px;
-    
+
 }
